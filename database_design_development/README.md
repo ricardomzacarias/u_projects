@@ -26,7 +26,9 @@ Dependera mucho de los sistemas operativos que utilices, sin embargo te dejo una
 > Lo recomendable es realizar la base de datos desde el mismo workbench, si no tienes experiencia, pero tambien puede realizarse a mano, dejo un script donde se ve el contenido de la misma. En mi caso particular, la he creado con workbench pero editado por mi propia cuenta para agregar parametros adicionales.
 
 - [Base de datos](https://github.com/ricardomzacarias/u_projects/tree/main/database_design_development/SCRIPT_ACEITES_TARUDO_RICARDO_MARIN_ZACARIAS.sql)
-\# ejemplo:
+
+> os dejo un ejemplo, aunque podras verlo en mayor detalle en el script:
+
 ```sql
 CREATE TABLE `agricultor` (
 `id_agricultor` int NOT NULL AUTO_INCREMENT,
@@ -110,7 +112,7 @@ Encontraremos un documento detallado con todos los testeos en:
 
 <h1 align="center">TRIGGERS</h1>
 
-> Aunque no contamos con bucles `for` en este proyecto (y hasta donde lo se no existen en sql) podemos usar triggers que simulen dicho comportamiento.
+> Aunque no contamos con bucles `for` en este proyecto (y hasta donde lo se no existen en sql) podemos usar triggers que simulen dicho comportamiento, este trigger agrega los elementos descritos: id_agricultor, fecha_actualizacion... al almacen y al prensado, sin necesidad que de que realizemos la misma manualmente. Recordemos que este proyecto se realizo utilizando la base de mysql y workbench para el modelado, por lo que no tenemos herramientas automaticen dichos registros, pero se pueden realizar, dejo el script "trigger":
 
 ```sql
 CREATE DEFINER = CURRENT_USER TRIGGER `aceituna_8`.`almacen`
