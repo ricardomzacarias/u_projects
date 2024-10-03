@@ -19,6 +19,14 @@ Dependera mucho de los sistemas operativos que utilices, sin embargo te dejo una
 
 ![diseño almacen](images/diseno_ventas.png)
 
+<h1 align="center">CREACION DE LA BASE DE DATOS</h1>
+
+> Lo recomendable es realizar la base de datos desde el mismo workbench, si no tienes experiencia, pero tambien puede realizarse a mano, dejo un script donde se ve el contenido de la misma. En mi caso particular, la he creado con workbench pero editado por mi propia cuenta para agregar parametros adicionales.
+
+- [Base de datos](https://github.com/ricardomzacarias/u_projects/tree/main/database_design_development/SCRIPT_ACEITES_TARUDO_RICARDO_MARIN_ZACARIAS.sql)
+
+<h2>DESDE WORKBENCH</h2>
+
 <h1 align="center">PRUEBAS</h1>
 
 Podemos dividir las pruebas en las siguientes:
