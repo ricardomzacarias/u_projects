@@ -27,7 +27,10 @@
 ![images](images/big_data_10.png)
 ![images](images/big_data_11.png)
 ![images](images/big_data_12.png)
-
 # Power Bi Graphics
+## Final Graphic
+> Agrupamos una serie de datos, que podran ser visualizados en power bi, por ahora os adelanto una imagen
 ![images](images/analisis_1.png)
+## Secondary final graphic
+> desde otra perspectiva podemos ver como embalses como el altazar pueden generarnos practicamente el 50% del agua acumulada de los embalses en madrid.
 ![images](images/analisis_2.png)
