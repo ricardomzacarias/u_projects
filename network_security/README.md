@@ -27,15 +27,19 @@ Ademas debemos preservar la **Confidencialidad, Integridad y Disponibilidad** de
 - Router ISR 4331
 ## Plano fisico y logico
 - Representacion grafica de ubicacion de las oficinas a nivel mundial.
+
 ![plano_fisico_nivel_mundial](./images/plano_fisico_1.png)
 
 - Plano fisico de departamentos.
+
 ![plano_fisico_nivel_departamentos](./images/plano_fisico_2.png)
 
 - Plano de seguridad fisica de servidores.
+
 ![plano_fisico_nivel_seguridad](./images/plano_fisico_3.png)
 
 - Distribucion Logica del proyecto (terminado)
+
 ![plano_fisico_nivel_logico](./images/plano_fisico_4.png)
 
 ## Medidas de seguridad a implementar:
